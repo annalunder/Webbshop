@@ -4,11 +4,9 @@ using System.Text;
 
 namespace WebShop.Models
 {
-    public class Author
+    public class Genre
     {
-        public int AuthorId { get; set; }
         public string Name { get; set; }
-
-        public ICollection<BookAuthor> BookAuthors { get; set; }
+        public string Description { get; set; }
     }
 }
