@@ -2,9 +2,10 @@
 
 @{
     ViewData["Title"] = "Home Page";
+    Layout = "/Shared/_Layout.cshtml";
 }
 
-@foreach(var book in Model)
+@foreach (var book in Model)
 {
     <h2>@book.Title</h2>
 }

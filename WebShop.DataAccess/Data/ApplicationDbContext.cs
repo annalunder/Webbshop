@@ -19,6 +19,10 @@ namespace WebShop.DataAccess.Data
         public DbSet<BookAuthor> BookAuthors { get; set; }
 
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<Catalog> Catalogs { get; set; }
+        public DbSet<Genre> Genres { get; set; }
+        public DbSet<Item> Items { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

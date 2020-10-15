@@ -6,6 +6,7 @@ namespace WebShop.Models
 {
     public class Catalog
     {
+        public int CatalogId { get; set; }
         public DateTime LastUpdated { get; set; }
 
         public ICollection<Book> Books { get; set; }
